@@ -2,7 +2,7 @@
 /*
 
 @Author: Themezinho
-@URL: http://www.themezinho.net
+@URL: http://fscsoftware.com
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
@@ -79,7 +79,8 @@ body {
   color: #262d57;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -164,35 +165,35 @@ p {
 }
 
 /* FORM ELEMENTS */
-input[type=text] {
+input[type="text"] {
   height: 54px;
   border: 1px solid #eaebee;
   background: #fff;
   padding: 0 20px;
 }
 
-input[type=password] {
+input[type="password"] {
   height: 54px;
   border: 1px solid #eaebee;
   background: #fff;
   padding: 0 20px;
 }
 
-input[type=search] {
+input[type="search"] {
   height: 54px;
   border: 1px solid #eaebee;
   background: #fff;
   padding: 0 20px;
 }
 
-input[type=email] {
+input[type="email"] {
   height: 54px;
   border: 1px solid #eaebee;
   background: #fff;
   padding: 0 20px;
 }
 
-input[type=checkbox] {
+input[type="checkbox"] {
   width: 14px;
   height: 14px;
   float: left;
@@ -204,14 +205,14 @@ input[type=checkbox] {
   -moz-appearance: none;
 }
 
-input[type=checkbox]:checked {
+input[type="checkbox"]:checked {
   background: #405089;
   -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
   -moz-box-shadow: inset 0px 0px 0px 3px #fff;
   box-shadow: inset 0px 0px 0px 3px #fff;
 }
 
-input[type=radio] {
+input[type="radio"] {
   width: 13px;
   height: 13px;
   float: left;
@@ -223,14 +224,14 @@ input[type=radio] {
   border-radius: 50%;
 }
 
-input[type=radio]:checked {
+input[type="radio"]:checked {
   background: #131314;
   -webkit-box-shadow: inset 0px 0px 0px 2px #fff;
   -moz-box-shadow: inset 0px 0px 0px 2px #fff;
   box-shadow: inset 0px 0px 0px 2px #fff;
 }
 
-input[type=submit] {
+input[type="submit"] {
   height: 54px;
   border: 1px solid #eaebee;
   color: #405089;
@@ -282,11 +283,13 @@ label {
 }
 
 /* ODOMETER */
-.odometer.odometer-auto-theme .odometer-digit, .odometer.odometer-theme-car .odometer-digit {
+.odometer.odometer-auto-theme .odometer-digit,
+.odometer.odometer-theme-car .odometer-digit {
   padding: 0;
 }
 
-.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner, .odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
+.odometer.odometer-auto-theme .odometer-digit .odometer-digit-inner,
+.odometer.odometer-theme-car .odometer-digit .odometer-digit-inner {
   left: 0;
 }
 
@@ -334,10 +337,10 @@ label {
   line-height: 26px;
   color: #9aa0ae;
 }
-.accordion .card [aria-expanded=true] {
+.accordion .card [aria-expanded="true"] {
   color: #f65935 !important;
 }
-.accordion .card [aria-expanded=true]:before {
+.accordion .card [aria-expanded="true"]:before {
   content: "-" !important;
   color: #f65935 !important;
 }
@@ -621,7 +624,7 @@ label {
   opacity: 1;
   visibility: visible;
 }
-.search-box input[type=search] {
+.search-box input[type="search"] {
   width: 80%;
   height: 60px;
   margin: 0 10%;
@@ -631,7 +634,7 @@ label {
   border-bottom: 2px solid #c1c4ce;
   font-size: 20px;
 }
-.search-box input[type=search]:focus {
+.search-box input[type="search"]:focus {
   border-bottom: 2px solid #f65935;
 }
 .search-box h6 {
@@ -911,6 +914,7 @@ label {
 }
 .header .navbar .container .logo {
   margin-right: auto;
+  display: none;
 }
 .header .navbar .container .logo a {
   float: left;
@@ -1012,7 +1016,16 @@ label {
   opacity: 0;
   visibility: hidden;
 }
-.header .navbar .container .nav-menu li .dropdown li .dropdown li:hover .dropdown {
+.header
+  .navbar
+  .container
+  .nav-menu
+  li
+  .dropdown
+  li
+  .dropdown
+  li:hover
+  .dropdown {
   opacity: 1;
   visibility: visible;
 }
@@ -1674,11 +1687,31 @@ label {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -o-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
 }
 .image-content-over-box figure figcaption h4 {
   display: block;
@@ -1770,11 +1803,31 @@ label {
   float: left;
   padding: 20px 30px;
   padding-top: 50px;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -o-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -moz-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -webkit-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
-  background-image: -ms-linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #131314 100%);
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -o-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -moz-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -webkit-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
+  background-image: -ms-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0%,
+    #131314 100%
+  );
   position: absolute;
   left: 0;
   bottom: 0;
@@ -2112,17 +2165,17 @@ label {
 .request-form form {
   margin-bottom: 0;
 }
-.request-form form input[type=text] {
+.request-form form input[type="text"] {
   width: 100%;
 }
-.request-form form input[type=checkbox] {
+.request-form form input[type="checkbox"] {
   border: none;
   background: #fff;
   -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
   -moz-box-shadow: inset 0px 0px 0px 3px #fff;
   box-shadow: inset 0px 0px 0px 3px #fff;
 }
-.request-form form input[type=checkbox]:checked {
+.request-form form input[type="checkbox"]:checked {
   border: none;
   background: #f65935;
   -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
@@ -2133,7 +2186,7 @@ label {
   width: 100%;
   color: #fff;
 }
-.request-form form input[type=submit] {
+.request-form form input[type="submit"] {
   background: none;
   color: #fff;
 }
@@ -2723,7 +2776,13 @@ label {
   margin: 0;
   padding: 0;
 }
-.history-timeline .cd-horizontal-timeline .timeline .events-wrapper .events ol li {
+.history-timeline
+  .cd-horizontal-timeline
+  .timeline
+  .events-wrapper
+  .events
+  ol
+  li {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -2738,20 +2797,40 @@ label {
   padding: 0;
   list-style: none;
 }
-.history-timeline .cd-horizontal-timeline .timeline .cd-timeline-navigation li a {
+.history-timeline
+  .cd-horizontal-timeline
+  .timeline
+  .cd-timeline-navigation
+  li
+  a {
   text-indent: 0;
   color: #fff;
   margin-top: -16px;
   background: none;
   line-height: 32px;
 }
-.history-timeline .cd-horizontal-timeline .timeline .cd-timeline-navigation li a.prev {
+.history-timeline
+  .cd-horizontal-timeline
+  .timeline
+  .cd-timeline-navigation
+  li
+  a.prev {
   transform: none;
 }
-.history-timeline .cd-horizontal-timeline .timeline .cd-timeline-navigation li a.next {
+.history-timeline
+  .cd-horizontal-timeline
+  .timeline
+  .cd-timeline-navigation
+  li
+  a.next {
   transform: none;
 }
-.history-timeline .cd-horizontal-timeline .timeline .cd-timeline-navigation li a:after {
+.history-timeline
+  .cd-horizontal-timeline
+  .timeline
+  .cd-timeline-navigation
+  li
+  a:after {
   content: "";
   display: none;
 }
@@ -2867,7 +2946,7 @@ label {
 .career form .form-group:last-child {
   margin-bottom: 0;
 }
-.career form .form-group input[type=text] {
+.career form .form-group input[type="text"] {
   width: 100%;
 }
 .career form .form-group textarea {
@@ -2888,7 +2967,7 @@ label {
   margin-top: 17px;
   margin-right: 10px;
 }
-.career form .form-group .file input[type=file] {
+.career form .form-group .file input[type="file"] {
   width: 84px;
   height: 48px;
   float: right;
@@ -2898,7 +2977,7 @@ label {
   position: relative;
   z-index: 2;
 }
-.career form .form-group .file input[type=text] {
+.career form .form-group .file input[type="text"] {
   width: 60%;
   height: 44px;
   margin: 4px 0;
@@ -2986,7 +3065,7 @@ label {
   padding: 60px 40px;
   background: #eaebee;
 }
-.our-offices address:nth-child(3n+3) {
+.our-offices address:nth-child(3n + 3) {
   margin-right: 0;
 }
 .our-offices address h5 {
@@ -3092,10 +3171,10 @@ label {
 .contact label {
   color: #9aa0ae;
 }
-.contact input[type=text] {
+.contact input[type="text"] {
   width: 100%;
 }
-.contact input[type=submit] {
+.contact input[type="submit"] {
   border: none;
   background: #f65935;
   color: #fff;
@@ -3103,10 +3182,12 @@ label {
 .contact textarea {
   width: 100%;
 }
-.contact #success, .contact #error {
+.contact #success,
+.contact #error {
   display: none;
 }
-.contact #success, .contact #error {
+.contact #success,
+.contact #error {
   float: left;
 }
 .contact #contact label.error {
@@ -3114,7 +3195,8 @@ label {
   color: red;
   margin-top: 10px;
 }
-.contact #contact input.error, .contact textarea.error {
+.contact #contact input.error,
+.contact textarea.error {
   width: 100%;
   border: 1px solid red;
 }
@@ -3280,7 +3362,8 @@ label {
 }
 
 /* RESPONSIVE MEDIUM  FIXES */
-@media only screen and (max-width: 1199px), only screen and (max-device-width: 1199px) {
+@media only screen and (max-width: 1199px),
+  only screen and (max-device-width: 1199px) {
   .container {
     max-width: 100%;
   }
@@ -3340,7 +3423,7 @@ label {
   }
 
   .icon-content-box .content-box {
-    flex-basis: calc(33.3333% - 30px );
+    flex-basis: calc(33.3333% - 30px);
     flex-direction: column;
     margin: 15px;
   }
@@ -3363,8 +3446,14 @@ label {
   }
 }
 /* RESPONSIVE TABLET FIXES */
-@media only screen and (max-width: 991px), only screen and (max-device-width: 991px) {
-  input[type=text], input[type=search], input[type=email], input[type=password], input[type=submit], textarea {
+@media only screen and (max-width: 991px),
+  only screen and (max-device-width: 991px) {
+  input[type="text"],
+  input[type="search"],
+  input[type="email"],
+  input[type="password"],
+  input[type="submit"],
+  textarea {
     border-radius: 0 !important;
     box-shadow: none !important;
     appearance: none;
@@ -3458,7 +3547,8 @@ label {
   }
 }
 /* RESPONSIVE MOBILE FIXES */
-@media only screen and (max-width: 767px), only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px),
+  only screen and (max-device-width: 767px) {
   .preloader-wrap .loader {
     max-height: 100%;
     padding: 0 15px;
