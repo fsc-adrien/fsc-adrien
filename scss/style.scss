@@ -64,8 +64,8 @@ theme.
 */
 
 $color-orange: #f65935;
-$color-blue: #405089;
-$color-dark: #262d57;
+$color-blue: #2f4f4f;
+$color-dark: #2f4f4f;
 $color-darker: #282f4a;
 
 @mixin font-one {
@@ -414,7 +414,7 @@ label {
   float: left;
   margin-bottom: 10px;
   font-size: 15px;
-  color: $color-blue;
+  color: $color-dark;
   strong {
     font-weight: 600;
   }
@@ -1098,7 +1098,7 @@ label {
       .bottom-bar {
         width: 100%;
         height: 5px;
-        background: #aaaec1;
+        background: #3b6363;
         position: absolute;
         left: 0;
         bottom: -5px;
@@ -1790,7 +1790,7 @@ label {
     line-height: 52px;
     display: inline-block;
     border: 1px solid #eaebee;
-    color: #405089;
+    color: #2f4f4f;
     padding: 0 40px;
     font-weight: 600;
     font-size: 13px;
@@ -2036,7 +2036,7 @@ label {
     small {
       display: block;
       margin-bottom: 20px;
-      color: #526199;
+      color: #2f4f4f;
       font-weight: 600;
     }
     p {
@@ -2316,7 +2316,7 @@ label {
       small {
         display: block;
         margin-bottom: 20px;
-        color: #526199;
+        color: #2f4f4f;
         font-weight: 600;
       }
       p {
@@ -2629,7 +2629,7 @@ label {
           left: 0;
           top: 50%;
           margin-top: -15px;
-          color: #969aa5;
+          color: #2f4f4f;
           font-weight: 600;
           opacity: 0;
           font-size: 30px;
