@@ -2,7 +2,7 @@
 /*
 
 @Author: Adrien
-@URL: https://fscsoftware.com
+@URL: http://fscsoftware.com
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
@@ -2137,6 +2137,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   padding-top: 120px;
+  padding-bottom: 120px;
   text-align: center;
 }
 .info-box h3 {
@@ -3498,10 +3499,7 @@ label {
   .header .navbar {
     padding: 20px 0;
   }
-  .header .navbar .container .search-btn {
-    padding-left: 0;
-    border: none;
-  }
+  .header .navbar .container .search-btn{padding-left: 0; bỏd}
 
   .header .navbar .container .sandwich-btn {
     margin-left: 20px;
