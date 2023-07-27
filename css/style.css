@@ -2,7 +2,7 @@
 /*
 
 @Author: Adrien
-@URL: http://fscsoftware.com
+@URL: https://fscsoftware.com
 
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
@@ -3491,8 +3491,16 @@ label {
     display: none;
   }
 
+  .header .navbar .container {
+    flex-direction: row-reverse;
+  }
+
   .header .navbar {
     padding: 20px 0;
+  }
+  .header .navbar .container .search-btn {
+    padding-left: 0;
+    border: none;
   }
 
   .header .navbar .container .sandwich-btn {
@@ -3561,6 +3569,7 @@ label {
 
   .header .navbar .container .search-btn {
     padding-right: 10px;
+    border: none;
   }
 
   .header .navbar .container .language {
