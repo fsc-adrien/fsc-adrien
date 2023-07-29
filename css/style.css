@@ -1417,7 +1417,12 @@ label {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  padding: 120px 0;
+  padding-top: 120px;
+}
+.image-content-box .section-title span, 
+.image-content-box .section-title h2,
+.image-content-box .section-title h6{
+  text-align: right;
 }
 .image-content-box .col-12 {
   display: flex;
@@ -2150,7 +2155,7 @@ label {
 .info-box h6 {
   font-size: 30px;
   font-weight: 300;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /* REQUEST FORM */
@@ -3654,7 +3659,7 @@ label {
   }
 
   .image-content-box {
-    padding: 70px 0;
+    padding-top: 70px;
     text-align: center;
   }
 
