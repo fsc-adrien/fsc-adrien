@@ -1,9 +1,8 @@
 // Google maps pin tooltip
 var markers = [
   {
-    lat: "40.9976701",
-    lng: "-74.2598695",
-
+    lat: "21.0278",
+    lng: "105.8342",
     description: 'Adrien <br/><a href="#">Get it now</a>',
   },
 ];
