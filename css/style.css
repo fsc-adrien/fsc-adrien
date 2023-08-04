@@ -759,6 +759,7 @@ label {
 .sandwich-menu address {
   display: block;
 }
+.sandwich-menu address p{margin-bottom: 0;}
 .sandwich-menu address a {
   color: #fff;
   opacity: 0.7;
@@ -1060,6 +1061,7 @@ label {
   cursor: pointer;
   font-size: 17px;
   color: #2f4f4f;
+  display: none !important;
 }
 .header .navbar .container .search-btn:hover {
   color: #f65935;
@@ -1238,6 +1240,7 @@ label {
   font-size: 12px;
   font-weight: 600;
   margin-top: 35px;
+  display: none;
 }
 .page-header .print img {
   height: 26px;
@@ -1417,6 +1420,7 @@ label {
   display: flex;
   flex-wrap: wrap;
   padding-top: 120px;
+  padding-bottom: 60px;
 }
 /* .image-content-box .section-title span, 
 .image-content-box .section-title h2,
@@ -1573,6 +1577,7 @@ label {
   flex-wrap: wrap;
   padding: 120px 0;
   text-align: center;
+  background: #eaebee;
 }
 .icon-content-box .col-12 {
   display: flex;
@@ -1642,7 +1647,6 @@ label {
   display: flex;
   flex-wrap: wrap;
   padding: 120px 0;
-  background: #eaebee;
   overflow: hidden;
 }
 .image-content-over-box .col-lg-8 {
@@ -2147,6 +2151,7 @@ label {
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
+  background: #eaebee;
 }
 .info-box h3 {
   font-size: 34px;
@@ -3235,14 +3240,14 @@ label {
   display: flex;
   flex-wrap: wrap;
   background: #294041;
-  margin-top: 54px;
+  padding-top: 54px;
 }
 .footer .contact-wrapper {
   width: 100%;
   max-width: 1380px;
   margin: 0 auto;
   padding: 0;
-  margin-top: -54px;
+  margin-top: -108px;
   background: #fff;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 8px 30px rgba(0, 0, 0, 0.1);
   margin-bottom: 60px;
@@ -3666,6 +3671,7 @@ label {
 
   .image-content-box {
     padding-top: 70px;
+    padding-bottom: 30px;
     text-align: center;
   }
 
