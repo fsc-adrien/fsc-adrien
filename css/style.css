@@ -729,7 +729,7 @@ label {
   left: -100%;
   top: 0;
   background: #294041;
-  z-index: 9;
+  z-index: 20;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
   -o-transform: rotate(0deg);
@@ -1138,6 +1138,7 @@ label {
   max-width: 600px;
   display: inline-block;
   margin-bottom: 40px;
+  color: #fff;
 }
 .slider .swiper-slide a {
   display: inline-block;
@@ -1217,7 +1218,7 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #2f4f4f;
+  background-color: #2f4f4fcc;
   background-blend-mode: multiply;
   text-align: right;
 }
