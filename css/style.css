@@ -3902,3 +3902,20 @@ label {
     }
   } */
 /*# sourceMappingURL=style.css.map */
+.image-content-box figure img {
+  max-height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.info-box .digi_trans img {
+  width: 100%;
+  opacity: 0;
+}
+
+.info-box .digi_trans {
+  background-color: rgb(47 79 79 / 50%);
+  background-blend-mode: multiply;
+  background-image: url(../images/digi02.png);
+  background-size: cover;
+}
