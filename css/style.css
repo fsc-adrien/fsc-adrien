@@ -3919,3 +3919,5 @@ label {
   background-image: url(../images/digi02.png);
   background-size: cover;
 }
+.hide{display: none !important;}
+.invisible{visibility: hidden !important;}
