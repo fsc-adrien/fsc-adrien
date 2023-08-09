@@ -15,7 +15,14 @@
     // SANDWICH BUTTON
     $(".sandwich-btn").on("click", function (e) {
       $(this).toggleClass("open");
-      $(".sandwich-menu").toggleClass("open");
+      $("body").toggleClass("open");
+    });
+
+    $("body .sandwich-menu .overlay").click(function () {
+      if ($("body").hasClass("open")) {
+        $(".sandwich-btn").toggleClass("open");
+        $("body").toggleClass("open");
+      }
     });
 
     // SEARCH

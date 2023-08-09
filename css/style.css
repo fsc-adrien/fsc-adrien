@@ -64,7 +64,7 @@ theme.
 
 */
 /* GOOGLE FONTS */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Poppins:300,400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:400,700,700i|Poppins:300,400,600,800|Montserrat:300,400,500,600,800");
 /* BODY */
 * {
   outline: none !important;
@@ -85,7 +85,7 @@ html {
 }
 
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-family: "Fjalla One", sans-serif;
 }
 
@@ -131,7 +131,7 @@ a {
   transition: 0.25s ease-in-out;
 }
 a:hover {
-  color: #f65935;
+  color: #fdbf43;
 }
 
 /* HTML TAGS */
@@ -328,7 +328,7 @@ label {
   font-weight: 600;
 }
 .accordion .card .card-header a:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
 }
 .accordion .card .card-body {
@@ -338,11 +338,11 @@ label {
   color: #9aa0ae;
 }
 .accordion .card [aria-expanded="true"] {
-  color: #f65935 !important;
+  color: #fdbf43 !important;
 }
 .accordion .card [aria-expanded="true"]:before {
   content: "-" !important;
-  color: #f65935 !important;
+  color: #fdbf43 !important;
 }
 
 /* PROGRESS BAR */
@@ -357,7 +357,7 @@ label {
 .progress .progress-bar {
   width: 1%;
   float: left;
-  background: #f65935;
+  background: #fdbf43;
   box-shadow: none;
 }
 
@@ -399,12 +399,12 @@ label {
   margin-right: 4px;
 }
 .pagination .page-item.active .page-link {
-  background: #f65935;
+  background: #fdbf43;
   color: #fff;
-  border-color: #f65935;
+  border-color: #fdbf43;
 }
 .pagination .page-item.active .page-link:hover {
-  background: #f65935;
+  background: #fdbf43;
 }
 .pagination .page-item .page-link {
   border: none;
@@ -416,7 +416,7 @@ label {
 }
 .pagination .page-item .page-link:hover {
   background: none;
-  border-color: #f65935;
+  border-color: #fdbf43;
 }
 
 /* PRELOADER */
@@ -492,7 +492,7 @@ label {
 .preloader-wrap .loadbar {
   width: 0%;
   height: 100%;
-  background: #f65935;
+  background: #fdbf43;
   box-shadow: 0px 0px 14px 1px #008737;
   position: absolute;
   top: 0;
@@ -518,8 +518,8 @@ label {
 .section-title h2 {
   display: block;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
-  color: #f65935;
+  font-family: "Montserrat", serif;
+  color: #fdbf43;
   margin-bottom: 20px;
 }
 .section-title h6 {
@@ -635,7 +635,7 @@ label {
   font-size: 20px;
 }
 .search-box input[type="search"]:focus {
-  border-bottom: 2px solid #f65935;
+  border-bottom: 2px solid #fdbf43;
 }
 .search-box h6 {
   color: #999da9;
@@ -696,7 +696,7 @@ label {
 .sandwich-btn:hover span {
   width: 22px;
   right: 12px;
-  background: #f65935;
+  background: #fdbf43;
 }
 .sandwich-btn.open span:nth-child(1) {
   top: 22px;
@@ -811,7 +811,7 @@ label {
   opacity: 0.7;
   font-size: 11px;
 }
-.sandwich-menu.open {
+body.open .sandwich-menu {
   left: 0;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1), 0 8px 30px rgba(0, 0, 0, 0.1);
 }
@@ -854,9 +854,9 @@ label {
 }
 .header .topbar {
   width: 100%;
-  height: 82px;
-  line-height: 60px;
-  background-color: #f65935;
+  height: 62px;
+  line-height: 37px;
+  background-color: #fdbf43;
   color: #fff;
   text-align: center;
 }
@@ -883,11 +883,18 @@ label {
   font-size: 12px;
 }
 .header .topbar .container .social-media li a:hover {
-  opacity: 0.7;
+  color: #2f4f4f;
 }
 .header .topbar .container .phone {
   margin-left: auto;
 }
+.header .topbar .container .phone a {
+  color: #fff;
+}
+
+.header .topbar .container .phone a:hover {color: #2f4f4f; text-decoration: none;}
+.header .topbar .container .phone a:hover img{background-color: #2f4f4f;}
+
 .header .topbar .container .phone img {
   height: 30px;
   margin-top: -1px;
@@ -944,13 +951,13 @@ label {
   position: relative;
 }
 .header .navbar .container .nav-menu li a:hover {
-  textcolor: #f65935;
+  textcolor: #fdbf43;
   text-decoration: none;
-  color: #f65935;
+  color: #fdbf43;
 }
 .header .navbar .container .nav-menu li a:hover:before {
   width: 100%;
-  background: #f65935;
+  background: #fdbf43;
   transition: width 0.25s ease;
 }
 .header .navbar .container .nav-menu li a:hover:after {
@@ -976,7 +983,7 @@ label {
   bottom: -5px;
   height: 5px;
   width: 0;
-  background: #f65935;
+  background: #fdbf43;
   transition: width 0.25s ease;
 }
 .header .navbar .container .nav-menu li .dropdown {
@@ -1064,7 +1071,7 @@ label {
   display: none !important;
 }
 .header .navbar .container .search-btn:hover {
-  color: #f65935;
+  color: #fdbf43;
 }
 .header .navbar .container .sandwich-btn {
   margin-right: 0;
@@ -1089,11 +1096,11 @@ label {
   font-weight: 600;
 }
 .header .navbar .container .language li a:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
 }
 .header .navbar .container .language li a.active {
-  color: #f65935;
+  color: #fdbf43;
 }
 .header .navbar .container .bottom-bar {
   width: 100%;
@@ -1123,7 +1130,7 @@ label {
   font-size: 30px;
   font-weight: 700;
   font-style: italic;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 .slider .swiper-slide h2 {
   font-size: 64px;
@@ -1131,7 +1138,7 @@ label {
   margin-bottom: 20px;
 }
 .slider .swiper-slide h2 span {
-  color: #f65935;
+  color: #fdbf43;
   font-family: Georgia;
 }
 .slider .swiper-slide p {
@@ -1162,9 +1169,9 @@ label {
   z-index: -1;
 }
 .slider .swiper-slide a:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
-  border-color: #f65935;
+  border-color: #fdbf43;
 }
 .slider .swiper-container {
   width: 100%;
@@ -1340,7 +1347,7 @@ label {
   width: 10px;
   height: 26px;
   display: inline-block;
-  background: #f65935;
+  background: #fdbf43;
   transform: translateY(-20px);
   position: relative;
 }
@@ -1350,7 +1357,7 @@ label {
   height: 0;
   border-style: solid;
   border-width: 5px 5px 0 0;
-  border-color: #f65935 transparent transparent transparent;
+  border-color: #fdbf43 transparent transparent transparent;
   position: absolute;
   left: 0;
   bottom: -5px;
@@ -1361,16 +1368,16 @@ label {
   height: 0;
   border-style: solid;
   border-width: 0 5px 5px 0;
-  border-color: transparent #f65935 transparent transparent;
+  border-color: transparent #fdbf43 transparent transparent;
   position: absolute;
   right: 0;
   bottom: -5px;
 }
 .featured-services .content-wrapper .container .content-box h3 {
   display: block;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
-  color: #f65935;
+  color: #fdbf43;
   font-size: 25px;
   margin-bottom: 15px;
 }
@@ -1445,7 +1452,7 @@ label {
 }
 .image-content-box .content-box h4 {
   font-weight: 600;
-  color: #f65935;
+  color: #fdbf43;
   font-size: 20px;
 }
 .image-content-box .content-box p {
@@ -1474,7 +1481,7 @@ label {
   -ms-transition: 0.25s ease-in-out;
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
-  background: #f65935;
+  background: #fdbf43;
 }
 .side-image-content .video:hover {
   opacity: 1;
@@ -1633,7 +1640,7 @@ label {
   color: #fff;
 }
 .flip-box-back h4 {
-  color: #fff !important;
+  color: #fdbf43 !important;
   margin-top: 20px;
 }
 .flip-box-back p {
@@ -1739,7 +1746,7 @@ label {
 .image-content-over-box .swiper-button-prev {
   width: 50px;
   height: 50px;
-  background: #f65935;
+  background: #fdbf43;
   padding: 10px;
   transform: rotate(180deg);
 }
@@ -1753,7 +1760,7 @@ label {
 .image-content-over-box .swiper-button-next {
   width: 50px;
   height: 50px;
-  background: #f65935;
+  background: #fdbf43;
   padding: 10px;
 }
 .image-content-over-box .swiper-button-next:hover {
@@ -1871,7 +1878,7 @@ label {
   margin-top: 40px;
 }
 .showcases .all-btn:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
 }
 
@@ -1900,7 +1907,7 @@ label {
   color: #2f4f4f;
 }
 .showcase-filter li a.current {
-  color: #f65935;
+  color: #fdbf43;
 }
 
 /* TESTIMONIALS */
@@ -1961,7 +1968,7 @@ label {
 .testimonials .testimonial figure figcaption {
   width: 30px;
   height: 30px;
-  background: #f65935;
+  background: #fdbf43;
   border-radius: 50%;
   position: absolute;
   left: 50%;
@@ -2112,10 +2119,10 @@ label {
 .latest-news .content-box h4 {
   display: block;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-size: 19px;
   line-height: 28px;
-  color: #f65935;
+  color: #fdbf43;
 }
 .latest-news .content-box small {
   display: block;
@@ -2156,9 +2163,9 @@ label {
 }
 .info-box h3 {
   font-size: 34px;
-  color: #f65935;
+  color: #fdbf43;
   font-weight: 700;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   margin-bottom: 20px;
 }
 .info-box h6 {
@@ -2192,7 +2199,7 @@ label {
 }
 .request-form form input[type="checkbox"]:checked {
   border: none;
-  background: #f65935;
+  background: #fdbf43;
   -webkit-box-shadow: inset 0px 0px 0px 3px #fff;
   -moz-box-shadow: inset 0px 0px 0px 3px #fff;
   box-shadow: inset 0px 0px 0px 3px #fff;
@@ -2255,7 +2262,7 @@ label {
   color: #2f4f4f;
 }
 .solutions .sidebar ul li a:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
 }
 .solutions .content-box {
@@ -2272,8 +2279,8 @@ label {
 }
 .solutions .content-box h5 {
   display: block;
-  color: #f65935;
-  font-family: "Playfair Display", serif;
+  color: #fdbf43;
+  font-family: "Montserrat", serif;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 15px;
@@ -2285,7 +2292,7 @@ label {
 }
 .solutions .content-box small strong {
   font-weight: 600;
-  color: #f65935;
+  color: #fdbf43;
 }
 .solutions .content-box .list {
   width: 100%;
@@ -2389,15 +2396,15 @@ label {
 .blog .post .post-content h4 {
   display: block;
   font-weight: 600;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-size: 29px;
   line-height: 38px;
-  color: #f65935;
+  color: #fdbf43;
 }
 .blog .post .post-content h5 {
   font-weight: 600;
-  color: #f65935;
-  font-family: "Playfair Display", serif;
+  color: #fdbf43;
+  font-family: "Montserrat", serif;
   margin-bottom: 15px;
 }
 .blog .post .post-content small {
@@ -2420,7 +2427,7 @@ label {
 .blog .post .post-content blockquote p {
   color: #fff;
   font-size: 18px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   line-height: 30px;
 }
 .blog .post .post-content blockquote h5 {
@@ -2451,8 +2458,8 @@ label {
   height: 24px;
 }
 .blog .post .post-content a:hover {
-  background: #f65935;
-  border-color: #f65935;
+  background: #fdbf43;
+  border-color: #fdbf43;
 }
 .blog .post .post-content a:hover img {
   -webkit-filter: brightness(0) invert(1);
@@ -2476,9 +2483,9 @@ label {
   width: 100%;
   float: left;
   padding: 20px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
   font-weight: 700;
-  color: #f65935;
+  color: #fdbf43;
   border-bottom: 1px solid #eaebee;
 }
 .blog .sidebar .categories ul {
@@ -2559,7 +2566,7 @@ label {
 .blog .sidebar .download-box {
   width: 100%;
   border: none;
-  background: #f65935;
+  background: #fdbf43;
   color: #fff;
   padding: 20px;
 }
@@ -2599,8 +2606,8 @@ label {
   margin-bottom: 10px;
 }
 .prices .price-box h3 {
-  font-family: "Playfair Display", serif;
-  color: #f65935;
+  font-family: "Montserrat", serif;
+  color: #fdbf43;
   font-weight: 700;
   font-size: 50px;
 }
@@ -2640,7 +2647,7 @@ label {
   color: #9aa0ae;
 }
 .prices .price-box ul li i {
-  color: #f65935;
+  color: #fdbf43;
 }
 .prices .price-box a {
   display: inline-block;
@@ -2664,9 +2671,9 @@ label {
   z-index: -1;
 }
 .prices .price-box a:hover {
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: none;
-  border-color: #f65935;
+  border-color: #fdbf43;
 }
 
 /* CLIENTS */
@@ -2753,11 +2760,11 @@ label {
   margin: 0;
 }
 .history-timeline .cd-horizontal-timeline .events a.older-event::after {
-  border-color: #f65935;
+  border-color: #fdbf43;
 }
 .history-timeline .cd-horizontal-timeline .events a.selected::after {
-  background: #f65935;
-  border-color: #f65935;
+  background: #fdbf43;
+  border-color: #fdbf43;
 }
 .history-timeline .cd-horizontal-timeline .events a {
   font-size: 12px;
@@ -2767,7 +2774,7 @@ label {
   text-decoration: none;
 }
 .history-timeline .cd-horizontal-timeline .filling-line {
-  background: #f65935;
+  background: #fdbf43;
 }
 .history-timeline .cd-horizontal-timeline .timeline {
   width: 100%;
@@ -2871,7 +2878,7 @@ label {
 }
 .history-timeline .cd-horizontal-timeline .events-content ol li em {
   font-size: 17px;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", serif;
 }
 .history-timeline .cd-horizontal-timeline .events-content ol li p {
   font-size: 15px;
@@ -2915,7 +2922,7 @@ label {
 }
 .career .job-list li:first-child {
   font-weight: 600;
-  color: #f65935;
+  color: #fdbf43;
   background: #eaebee;
 }
 .career .job-list li:last-child {
@@ -2938,7 +2945,7 @@ label {
   height: 40px;
   line-height: 40px;
   display: inline-block;
-  background: #f65935;
+  background: #fdbf43;
   color: #fff;
   padding: 0 20px;
   font-weight: 600;
@@ -3049,7 +3056,7 @@ label {
 .press-relases figure figcaption h5 {
   font-weight: 600;
   font-size: 14px;
-  color: #f65935;
+  color: #fdbf43;
 }
 .press-relases figure figcaption p {
   font-size: 14px;
@@ -3085,8 +3092,8 @@ label {
 }
 .our-offices address h5 {
   font-weight: 700;
-  font-family: "Playfair Display", serif;
-  color: #f65935;
+  font-family: "Montserrat", serif;
+  color: #fdbf43;
 }
 .our-offices address a {
   color: #2f4f4f;
@@ -3117,7 +3124,7 @@ label {
 .error-page a {
   display: inline-block;
   font-weight: 600;
-  color: #f65935;
+  color: #fdbf43;
   text-decoration: underline;
 }
 
@@ -3134,7 +3141,7 @@ label {
   margin-left: 70px;
   padding: 40px 30px;
   text-align: center;
-  background: #f65935;
+  background: #fdbf43;
   color: #fff;
   position: -webkit-sticky !important;
   position: sticky !important;
@@ -3191,7 +3198,7 @@ label {
 }
 .contact input[type="submit"] {
   border: none;
-  background: #f65935;
+  background: #fdbf43;
   color: #fff;
 }
 .contact textarea {
@@ -3228,7 +3235,7 @@ label {
   bottom: 20px;
   right: 20px;
   display: none;
-  background-color: #f65935;
+  background-color: #fdbf43;
 }
 .scrollup:hover {
   background-color: #2f4f4f;
@@ -3275,9 +3282,9 @@ label {
 }
 .footer .contact-wrapper .container h3 {
   display: block;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
-  color: #f65935;
+  font-family: "Montserrat", serif;
+  font-weight: 600;
+  color: #fdbf43;
   font-size: 25px;
   margin-bottom: 15px;
 }
@@ -3357,7 +3364,7 @@ label {
   color: #fff;
 }
 .footer .content-wrapper .contact-box ul li a:hover {
-  color: #f65935;
+  color: #fdbf43;
 }
 .footer .sub-footer {
   width: 100%;
@@ -3921,3 +3928,16 @@ label {
 }
 .hide{display: none !important;}
 .invisible{visibility: hidden !important;}
+.sandwich-menu .overlay {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  left: 0;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+body.open .sandwich-menu .overlay{
+  display: block;
+}
