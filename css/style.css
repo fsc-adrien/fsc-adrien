@@ -3915,7 +3915,8 @@ body.open .sandwich-menu {
   } */
 /*# sourceMappingURL=style.css.map */
 .image-content-box figure img {
-  max-height: 150px;
+  max-height: 240px;
+  min-height: 225px;
   width: 100%;
   object-fit: cover;
 }
@@ -3926,7 +3927,7 @@ body.open .sandwich-menu {
 }
 
 .info-box .digi_trans {
-  background-color: rgb(47 79 79 / 50%);
+  /* background-color: rgb(47 79 79 / 50%); */
   background-blend-mode: multiply;
   background-image: url(../images/digi02.png);
   background-size: cover;
