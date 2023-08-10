@@ -1686,6 +1686,8 @@ body.open .sandwich-menu {
   margin: 0;
   overflow: hidden;
   background: #2f4f4f;
+  max-height: 330px;
+  height: 100%;
 }
 .image-content-over-box figure * {
   -webkit-transition: 0.25s ease-in-out;
@@ -1700,6 +1702,9 @@ body.open .sandwich-menu {
 }
 .image-content-over-box figure img {
   width: 100%;
+  min-height: 330px;
+  max-height: 100%;
+  object-fit: cover;
 }
 .image-content-over-box figure figcaption {
   width: 100%;
